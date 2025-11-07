@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-lts
+    container_name: sisjog-sql
+    ports:
+      - "1433:1433"
+    environment:
+      SA_PASSWORD: "nightrain"
+      ACCEPT_EULA: "Y"
+    restart: unless-stopped
