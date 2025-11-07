@@ -1,0 +1,5 @@
+C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Application\obj\Debug\net8.0\Sisjog.Application.csproj.AssemblyReference.cache
+C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Application\obj\Debug\net8.0\Sisjog.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Application\obj\Debug\net8.0\Sisjog.Application.AssemblyInfoInputs.cache
+C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Application\obj\Debug\net8.0\Sisjog.Application.AssemblyInfo.cs
+C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Application\obj\Debug\net8.0\Sisjog.Application.csproj.CoreCompileInputs.cache

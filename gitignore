@@ -1,0 +1,23 @@
+# Build
+bin/
+obj/
+*.dll
+*.exe
+
+# User-specific
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+
+# Others
+*.log
+*.db
+*.DS_Store
+.env
+
+# Docker
+docker-compose.override.yml
