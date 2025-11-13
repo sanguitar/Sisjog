@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sisjog.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4893ab1d71dbbe607c680aa2511d988a16868b7c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sisjog.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sisjog.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

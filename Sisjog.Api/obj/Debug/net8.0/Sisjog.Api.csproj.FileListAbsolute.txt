@@ -1,6 +1,0 @@
-C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Api\obj\Debug\net8.0\Sisjog.Api.csproj.AssemblyReference.cache
-C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Api\obj\Debug\net8.0\Sisjog.Api.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Api\obj\Debug\net8.0\Sisjog.Api.AssemblyInfoInputs.cache
-C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Api\obj\Debug\net8.0\Sisjog.Api.AssemblyInfo.cs
-C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Api\obj\Debug\net8.0\Sisjog.Api.csproj.CoreCompileInputs.cache
-C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Api\obj\Debug\net8.0\Sisjog.Api.MvcApplicationPartsAssemblyInfo.cache

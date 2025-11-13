@@ -7,6 +7,8 @@ using Sisjog.Application.Services;
 using Sisjog.Infrastructure.Persistence;
 using Sisjog.Application.Interfaces;
 using Sisjog.Infrastructure.Services;
+using VideoGameConsoleService = Sisjog.Infrastructure.Services.VideoGameConsoleService;
+using Sisjog.Infrastructure.Repository;
 
 
 
@@ -31,6 +33,8 @@ builder.Services.AddDbContext<SisjogDbContext>(options =>
 builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
 builder.Services.AddScoped<IVideoGameConsoleService, VideoGameConsoleService>();
 
+builder.Services.AddScoped<IVideoGameConsoleService, VideoGameConsoleService>();
+builder.Services.AddScoped<IVideoGameConsoleRepository, VideoGameConsoleRepository>();
 
 
 var app = builder.Build();
