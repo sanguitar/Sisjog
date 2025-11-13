@@ -1,0 +1,13 @@
+C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Domain\bin\Debug\net8.0\Sisjog.Domain.deps.json
+C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Domain\bin\Debug\net8.0\Sisjog.Domain.dll
+C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Domain\bin\Debug\net8.0\Sisjog.Domain.pdb
+C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Domain\obj\Debug\net8.0\Sisjog.Domain.csproj.AssemblyReference.cache
+C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Domain\obj\Debug\net8.0\Sisjog.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Domain\obj\Debug\net8.0\Sisjog.Domain.AssemblyInfoInputs.cache
+C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Domain\obj\Debug\net8.0\Sisjog.Domain.AssemblyInfo.cs
+C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Domain\obj\Debug\net8.0\Sisjog.Domain.csproj.CoreCompileInputs.cache
+C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Domain\obj\Debug\net8.0\Sisjog.Domain.sourcelink.json
+C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Domain\obj\Debug\net8.0\Sisjog.Domain.dll
+C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Domain\obj\Debug\net8.0\refint\Sisjog.Domain.dll
+C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Domain\obj\Debug\net8.0\Sisjog.Domain.pdb
+C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Domain\obj\Debug\net8.0\ref\Sisjog.Domain.dll

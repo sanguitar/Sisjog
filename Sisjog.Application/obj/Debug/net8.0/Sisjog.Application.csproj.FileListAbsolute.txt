@@ -1,0 +1,16 @@
+C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Application\bin\Debug\net8.0\Sisjog.Application.deps.json
+C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Application\bin\Debug\net8.0\Sisjog.Application.dll
+C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Application\bin\Debug\net8.0\Sisjog.Application.pdb
+C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Application\bin\Debug\net8.0\Sisjog.Domain.dll
+C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Application\bin\Debug\net8.0\Sisjog.Domain.pdb
+C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Application\obj\Debug\net8.0\Sisjog.Application.csproj.AssemblyReference.cache
+C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Application\obj\Debug\net8.0\Sisjog.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Application\obj\Debug\net8.0\Sisjog.Application.AssemblyInfoInputs.cache
+C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Application\obj\Debug\net8.0\Sisjog.Application.AssemblyInfo.cs
+C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Application\obj\Debug\net8.0\Sisjog.Application.csproj.CoreCompileInputs.cache
+C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Application\obj\Debug\net8.0\Sisjog.Application.sourcelink.json
+C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Application\obj\Debug\net8.0\Sisjog.A.BA1355D3.Up2Date
+C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Application\obj\Debug\net8.0\Sisjog.Application.dll
+C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Application\obj\Debug\net8.0\refint\Sisjog.Application.dll
+C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Application\obj\Debug\net8.0\Sisjog.Application.pdb
+C:\Users\DEV-SERVER\source\repos\Sisjog\Sisjog.Application\obj\Debug\net8.0\ref\Sisjog.Application.dll

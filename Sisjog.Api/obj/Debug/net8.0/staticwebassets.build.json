@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "PXlosN6RQ2sBXPjixFVgNuhKmqK0vhx4UWL1hq1tDeM=",
+  "Source": "Sisjog.Api",
+  "BasePath": "_content/Sisjog.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

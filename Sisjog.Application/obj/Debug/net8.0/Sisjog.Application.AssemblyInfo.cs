@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sisjog.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4893ab1d71dbbe607c680aa2511d988a16868b7c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2462866d942c6710e667456178a9769db84bed0d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sisjog.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sisjog.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
