@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sisjog.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2462866d942c6710e667456178a9769db84bed0d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f13841aaf59726639bbc09b0fd250525e782ecfb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sisjog.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sisjog.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

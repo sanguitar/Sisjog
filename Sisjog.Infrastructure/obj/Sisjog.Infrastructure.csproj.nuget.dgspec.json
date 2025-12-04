@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DEV-SERVER\\source\\repos\\Sisjog\\Sisjog.Infrastructure\\Sisjog.Infrastructure.csproj": {}
+    "D:\\source\\repos\\Sisjog\\Sisjog.Infrastructure\\Sisjog.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DEV-SERVER\\source\\repos\\Sisjog\\Sisjog.Application\\Sisjog.Application.csproj": {
+    "D:\\source\\repos\\Sisjog\\Sisjog.Application\\Sisjog.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DEV-SERVER\\source\\repos\\Sisjog\\Sisjog.Application\\Sisjog.Application.csproj",
+        "projectUniqueName": "D:\\source\\repos\\Sisjog\\Sisjog.Application\\Sisjog.Application.csproj",
         "projectName": "Sisjog.Application",
-        "projectPath": "C:\\Users\\DEV-SERVER\\source\\repos\\Sisjog\\Sisjog.Application\\Sisjog.Application.csproj",
-        "packagesPath": "C:\\Users\\DEV-SERVER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DEV-SERVER\\source\\repos\\Sisjog\\Sisjog.Application\\obj\\",
+        "projectPath": "D:\\source\\repos\\Sisjog\\Sisjog.Application\\Sisjog.Application.csproj",
+        "packagesPath": "C:\\Users\\DEVELOPER01\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\repos\\Sisjog\\Sisjog.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DEV-SERVER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DEVELOPER01\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\DEV-SERVER\\source\\repos\\Sisjog\\Sisjog.Domain\\Sisjog.Domain.csproj": {
-                "projectPath": "C:\\Users\\DEV-SERVER\\source\\repos\\Sisjog\\Sisjog.Domain\\Sisjog.Domain.csproj"
+              "D:\\source\\repos\\Sisjog\\Sisjog.Domain\\Sisjog.Domain.csproj": {
+                "projectPath": "D:\\source\\repos\\Sisjog\\Sisjog.Domain\\Sisjog.Domain.csproj"
               }
             }
           }
@@ -49,7 +49,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -80,24 +80,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\DEV-SERVER\\source\\repos\\Sisjog\\Sisjog.Domain\\Sisjog.Domain.csproj": {
+    "D:\\source\\repos\\Sisjog\\Sisjog.Domain\\Sisjog.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DEV-SERVER\\source\\repos\\Sisjog\\Sisjog.Domain\\Sisjog.Domain.csproj",
+        "projectUniqueName": "D:\\source\\repos\\Sisjog\\Sisjog.Domain\\Sisjog.Domain.csproj",
         "projectName": "Sisjog.Domain",
-        "projectPath": "C:\\Users\\DEV-SERVER\\source\\repos\\Sisjog\\Sisjog.Domain\\Sisjog.Domain.csproj",
-        "packagesPath": "C:\\Users\\DEV-SERVER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DEV-SERVER\\source\\repos\\Sisjog\\Sisjog.Domain\\obj\\",
+        "projectPath": "D:\\source\\repos\\Sisjog\\Sisjog.Domain\\Sisjog.Domain.csproj",
+        "packagesPath": "C:\\Users\\DEVELOPER01\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\repos\\Sisjog\\Sisjog.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DEV-SERVER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DEVELOPER01\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -125,7 +125,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -156,24 +156,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\DEV-SERVER\\source\\repos\\Sisjog\\Sisjog.Infrastructure\\Sisjog.Infrastructure.csproj": {
+    "D:\\source\\repos\\Sisjog\\Sisjog.Infrastructure\\Sisjog.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DEV-SERVER\\source\\repos\\Sisjog\\Sisjog.Infrastructure\\Sisjog.Infrastructure.csproj",
+        "projectUniqueName": "D:\\source\\repos\\Sisjog\\Sisjog.Infrastructure\\Sisjog.Infrastructure.csproj",
         "projectName": "Sisjog.Infrastructure",
-        "projectPath": "C:\\Users\\DEV-SERVER\\source\\repos\\Sisjog\\Sisjog.Infrastructure\\Sisjog.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\DEV-SERVER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DEV-SERVER\\source\\repos\\Sisjog\\Sisjog.Infrastructure\\obj\\",
+        "projectPath": "D:\\source\\repos\\Sisjog\\Sisjog.Infrastructure\\Sisjog.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\DEVELOPER01\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\repos\\Sisjog\\Sisjog.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DEV-SERVER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DEVELOPER01\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -189,11 +189,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\DEV-SERVER\\source\\repos\\Sisjog\\Sisjog.Application\\Sisjog.Application.csproj": {
-                "projectPath": "C:\\Users\\DEV-SERVER\\source\\repos\\Sisjog\\Sisjog.Application\\Sisjog.Application.csproj"
+              "D:\\source\\repos\\Sisjog\\Sisjog.Application\\Sisjog.Application.csproj": {
+                "projectPath": "D:\\source\\repos\\Sisjog\\Sisjog.Application\\Sisjog.Application.csproj"
               },
-              "C:\\Users\\DEV-SERVER\\source\\repos\\Sisjog\\Sisjog.Domain\\Sisjog.Domain.csproj": {
-                "projectPath": "C:\\Users\\DEV-SERVER\\source\\repos\\Sisjog\\Sisjog.Domain\\Sisjog.Domain.csproj"
+              "D:\\source\\repos\\Sisjog\\Sisjog.Domain\\Sisjog.Domain.csproj": {
+                "projectPath": "D:\\source\\repos\\Sisjog\\Sisjog.Domain\\Sisjog.Domain.csproj"
               }
             }
           }
@@ -208,7 +208,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -245,7 +245,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

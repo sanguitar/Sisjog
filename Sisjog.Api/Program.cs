@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Web;
 using Sisjog.Application.Interfaces;
@@ -36,6 +36,16 @@ builder.Services.AddScoped<IVideoGameConsoleService, VideoGameConsoleService>();
 builder.Services.AddScoped<IVideoGameConsoleService, VideoGameConsoleService>();
 builder.Services.AddScoped<IVideoGameConsoleRepository, VideoGameConsoleRepository>();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowLocalReact", policy =>
+    {
+        policy.WithOrigins("http://localhost:3000") // React rodando aqui
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
+
 
 var app = builder.Build();
 
@@ -50,6 +60,8 @@ if (app.Environment.IsDevelopment())
 
 
 app.UseHttpsRedirection();
+app.UseCors("AllowLocalReact");
+
 
 app.UseAuthorization();
 

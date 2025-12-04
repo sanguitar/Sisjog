@@ -1,12 +1,29 @@
-version: '3.9'
+version: '3.8'
 
 services:
   sqlserver:
-    image: mcr.microsoft.com/mssql/server:2022-lts
+    image: mcr.microsoft.com/mssql/server:2022-latest
     container_name: sisjog-sql
     ports:
       - "1433:1433"
     environment:
-      SA_PASSWORD: "nightrain"
+      SA_PASSWORD: "Nightrain@123"
       ACCEPT_EULA: "Y"
     restart: unless-stopped
+    networks:
+      - sisjog-net
+
+  sisjog-api:
+    build: .
+    container_name: sisjog-api
+    ports:
+      - "5000:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    depends_on:
+      - sqlserver
+    networks:
+      - sisjog-net
+
+networks:
+  sisjog-net:

@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\Sisjog.Api.props" />
-</Project>
