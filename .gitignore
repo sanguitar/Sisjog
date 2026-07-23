@@ -1,1 +1,23 @@
+# Build output
+**/bin/
+**/obj/
+*.dll
+*.exe
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
 .vs/
+
+# Local configuration and logs
+.env
+*.log
+*.db
+.DS_Store
+
+# Docker overrides
+docker-compose.override.yml

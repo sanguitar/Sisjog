@@ -8,7 +8,7 @@ namespace Sisjog.Domain.Entities
         public string Nome { get; set; } = string.Empty;
         public string Marca { get; set; } = string.Empty;
         public int AnoLancamento { get; set; }
-        public EstadoConservacao Estado { get; set; }
+        public EstadoConsole Estado { get; set; }
 
         public ICollection<Jogo> Jogos { get; set; } = new List<Jogo>();
     }

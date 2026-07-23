@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   sqlserver:
     image: mcr.microsoft.com/mssql/server:2022-latest
@@ -7,19 +5,26 @@ services:
     ports:
       - "1433:1433"
     environment:
-      SA_PASSWORD: "Nightrain@123"
       ACCEPT_EULA: "Y"
+      MSSQL_PID: "Developer"
+      MSSQL_SA_PASSWORD: "${MSSQL_SA_PASSWORD:?Defina MSSQL_SA_PASSWORD no arquivo .env}"
+    volumes:
+      - sisjog-sql-data:/var/opt/mssql
     restart: unless-stopped
     networks:
       - sisjog-net
 
   sisjog-api:
-    build: .
+    build:
+      context: .
+      dockerfile: Sisjog.Api/Dockerfile
     container_name: sisjog-api
     ports:
       - "5000:8080"
     environment:
-      - ASPNETCORE_ENVIRONMENT=Development
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ConnectionStrings__DefaultConnection: "Server=sqlserver,1433;Database=SisjogDb;User Id=sa;Password=${MSSQL_SA_PASSWORD};TrustServerCertificate=True;"
     depends_on:
       - sqlserver
     networks:
@@ -27,3 +32,6 @@ services:
 
 networks:
   sisjog-net:
+
+volumes:
+  sisjog-sql-data:
