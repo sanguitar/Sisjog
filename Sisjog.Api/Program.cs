@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Web;
+using Serilog;
+using Serilog.Events;
 using Sisjog.Application.Interfaces;
 using Sisjog.Application.Mapping;
 using Sisjog.Application.Services;
@@ -8,6 +10,25 @@ using Sisjog.Infrastructure.Persistence;
 using Sisjog.Infrastructure.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
+
+var seqServerUrl = builder.Configuration["Seq:ServerUrl"];
+
+builder.Host.UseSerilog((context, services, loggerConfiguration) =>
+{
+    loggerConfiguration
+        .MinimumLevel.Information()
+        .MinimumLevel.Override("Microsoft.AspNetCore", LogEventLevel.Warning)
+        .MinimumLevel.Override("Microsoft.EntityFrameworkCore.Database.Command", LogEventLevel.Warning)
+        .Enrich.FromLogContext()
+        .Enrich.WithProperty("Application", "Sisjog.Api")
+        .Enrich.WithProperty("Environment", context.HostingEnvironment.EnvironmentName)
+        .WriteTo.Console();
+
+    if (!string.IsNullOrWhiteSpace(seqServerUrl))
+    {
+        loggerConfiguration.WriteTo.Seq(seqServerUrl);
+    }
+});
 
 var azureAdSection = builder.Configuration.GetSection("AzureAd");
 var azureAdConfigured =
@@ -56,6 +77,16 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
+app.UseSerilogRequestLogging(options =>
+{
+    options.GetLevel = (httpContext, _, exception) =>
+        exception is not null || httpContext.Response.StatusCode >= 500
+            ? LogEventLevel.Error
+            : httpContext.Response.StatusCode >= 400
+                ? LogEventLevel.Warning
+                : LogEventLevel.Information;
+});
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -68,5 +99,30 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.MapGet("/health", async (
+    SisjogDbContext dbContext,
+    ILoggerFactory loggerFactory,
+    CancellationToken cancellationToken) =>
+{
+    var logger = loggerFactory.CreateLogger("HealthCheck");
+
+    try
+    {
+        if (await dbContext.Database.CanConnectAsync(cancellationToken))
+        {
+            return Results.Text("Healthy", "text/plain");
+        }
+
+        logger.LogWarning("Database health check could not connect to SisjogDb.");
+    }
+    catch (Exception exception)
+    {
+        logger.LogError(exception, "Database health check failed for SisjogDb.");
+    }
+
+    return Results.Text("Unhealthy", "text/plain", statusCode: StatusCodes.Status503ServiceUnavailable);
+})
+.AllowAnonymous();
 
 app.Run();
